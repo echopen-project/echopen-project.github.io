@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Echopen</title>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width">
+    <link rel="stylesheet" href="dest/css/style.min.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="dest/js/libs/jquery.mobile.min.js"></script>
+</head>
+
+<body>
+	<header class="header flex-row-center" id="header">
+		<a href="index.html" class="header_logo white">
+			<img src="dest/img/logo-white.png" alt="logo echopen" />
+		</a>
+		<a href="index.html" class="header_logo colored">
+			<img src="dest/img/logo-colored.png" alt="logo echopen" />
+		</a>
+		<ul class="header_nav">
+			<li class="header_nav_item"><a href="community.html">Communauté</a></li>
+			<li class="header_nav_item"><a href="joinus.html">Contribuez</a></li>
+            <li class="header_nav_item"><a href="apropos.html">A Propos</a></li>
+			<li class="header_nav_item"><a href="opensource.html">Open source</a></li>
+		</ul>
+		<div class="header_burger" id="burger">
+			<span class="header_burger_line"></span>
+			<span class="header_burger_line"></span>
+			<span class="header_burger_line"></span>
+		</div>
+	</header>
+	<div class="home">
+
+		<!-- INTRO -->
+		<div class="home_intro section flex-column-center">
+            <div class="home_intro_content flex-row-center">
+    			<h1 class="text-white big-title uppercase">Echo stetoscope<br>
+    				l'innovation medicale<br>
+    				opensource
+    			</h1>
+                <img src="assets/anim.gif" alt="">
+            </div>
+			<a href='#diagnostic' class="btn small-btn home_intro_btn scrollTo">Découvrir</a>
+		</div>
+
+		<!-- DIAGNOSTICS -->
+		<div class="home_diagnostic" id="diagnostic">
+			<div class="home_diagnostic_up flex-column">
+				<h2 class="home_diagnostic_block_title text-blue">Un projet collaboratif innovant : <br>
+				Une échostéthoscopie connectée</h2>
+				<p class="txt home_diagnostic_block_txt text-grey">
+					EchOpen est un projet open source hardware dont l’ambition est de créer la première sonde d’échographie open source, low cost, utilisable sur un smartphone à destination des professionnels de santé pour la transformation de l’orientation diagnostic, dans les urgences comme en médecine de brousse. 
+				</p>
+			</div>
+			
+			<div class="home_diagnostic_list flex-row-center">
+				<div class="home_diagnostic_list_item flex-column-center">
+					<img src="dest/img/sonde-ico.png" alt="">
+					<h2 class="bold uppercase text-blue">sonde connectée</h2>
+					<p class="text-grey">
+						Sonde connectée à un smartphone permettant de réaliser facilement une échographie avec une bonne prise en main.
+					</p>
+				</div>
+				<div class="home_diagnostic_list_item flex-column-center">
+					<img src="dest/img/heart.png" alt="">
+					<h2 class="bold uppercase text-blue">sauve des vies</h2>
+					<p class="text-grey">
+						S’adressant aux professionnels de santé n’ayant pas ou d’accès à des machines d’imageries médicales.
+					</p>
+				</div>
+				<div class="home_diagnostic_list_item flex-column-center">
+					<img src="dest/img/collab.png" alt="">
+					<h2 class="bold uppercase text-blue">projet collaboratif</h2>
+					<p class="text-grey">
+						En OpenSource, reposant sur un réseau actif de bénévoles apportant leurs expertises.
+					</p>
+				</div>
+			</div>
+
+			<div class="home_diagnostic_down flex-row-center">
+				<div class="home_diagnostic_down_block">
+					<img src="dest/img/consultation.jpg" class="home_diagnostic_down_block_medical" alt=""/>
+				</div>
+				<div class="home_diagnostic_down_block flex-column-center">
+					<h2 class="article-title uppercase bold text-dark">Diagnostique abordable</h2>
+					<img src="dest/img/schema.png" class="home_diagnostic_down_block_schema" alt="schéma de fonctionnement"/>	
+				</div>
+			</div>
+		</div>
+
+		<!-- STATS -->
+		<div class="home_stat flex-row">
+			<div class="home_stat_block flex-column-center">
+				<span class="home_stat_block_numb big-title">1</span>
+				<p class="home_stat_block_desc txt text-white">Prototype</p>
+			</div>
+			<div class="home_stat_block flex-column-center">
+				<span class="home_stat_block_numb big-title">300 +</span>
+				<p class="home_stat_block_desc txt text-white">Membres de la communauté</p>
+			</div>
+			<div class="home_stat_block flex-column-center">
+				<span class="home_stat_block_numb big-title">850 +</span>
+				<p class="home_stat_block_desc txt text-white">Evènements</p>
+			</div>
+			<div class="home_stat_block flex-column-center">
+				<span class="home_stat_block_numb big-title">5000 +</span>
+				<p class="home_stat_block_desc txt text-white">Heures de travail</p>
+			</div>
+            <a href="community.html" class="btn large-btn home_stat_btn">En savoir plus</a>
+		</div>
+
+		<!-- TRANSITION -->
+		<div class="home_transition flex-column-center">
+			<h2 class="big-title text-white bold">
+				<strong class="text-turquoise">2 / 3 de la population</strong><br>
+				mondiale n'ont pas accès à l'imagerie diagnostique.
+			</h2>
+			<button class="btn large-btn">Rejoignez-nous</button>
+		</div>
+
+        <!-- Slider section -->
+        <div class="cd-slider-wrapper">
+            <ul class="cd-slider">
+                <li class="is-visible">
+                    <div class="cd-half-block image"></div>
+
+                    <div class="cd-half-block content">
+                        <div>
+                            <h2>“</h2>
+                            <p>
+                                EchoPen est un projet à portée mondial : il a pour objectif d’améliorer les dépenses en soins santé.
+                            </p>
+                            <h3><span>Mehdi Benchoufi,</span>Fondateur d'EchOpen</h3>
+                        </div>
+                    </div>
+                </li> 
+                <li>
+                    <div class="cd-half-block image"></div>
+                    <div class="cd-half-block content light-bg">
+                        <div>
+                            <h2>“</h2>
+                            <p>
+                                C’est l’accessibilité limitée au matériel adapté qui pose le plus souvent problème. Réduire les coûts est un enjeu clé pour sauver des vies. 
+                            </p>
+                            <h3><span>Mehdi Benchoufi,</span>Fondateur d'EchOpen</h3>
+                        </div>
+                    </div> 
+                </li>
+                <li>
+                    <div class="cd-half-block image"></div>
+
+                    <div class="cd-half-block content">
+                        <div>
+                            <h2>“</h2>
+                            <p>
+                               Les miracles de l’OpenSource et du collaboratif : on peut tester beaucoup de chose
+                            </p>
+                            <h3><span>Benoit,</span> membre de la communauté EchoPen lors de la présentation de sa sonde le 24 Mars</h3>
+                        </div>
+                    </div> 
+                </li>
+            </ul> 
+        </div>
+		
+        <!-- BLOC MIROR -->
+        <section class="commun flex-row">
+            <div class="flex-column-center takepart commun_block take">
+                <h2 class="big-title text-white bold commun_block_title">Donnez de votre temps</h2>
+                <p class="txt commun_block_txt text-white">
+                    EchOpen a besoin de vos compétences. Prenez part à notre projet
+                </p>
+                <div class="flex-row commun_block_select select">
+                    <span class="text-white commun_block_select_who">Je suis</span>
+                    <span class="text-dark commun_block_select_job" id="select">
+                        Développeur
+                        <img src="dest/img/arrow.png" alt=""/>
+                    </span>
+                </div>
+                <button class="btn large-btn commun_block_btn">Devenez contributeur</button>
+            </div>
+            <!-- DONATE -->
+            <div class="flex-column-center donate-bloc commun_block donate">
+                <h2 class="big-title text-white bold commun_block_title">
+                    Faîtes un don<br/>
+                </h2>
+                <p class="txt commun_block_txt home_donate_txt text-white">Offrez un lieu, du matériel ou financer la recherche.</p>
+                <button class="btn large-btn">Devenez donateur</button>
+            </div>
+        </section>
+
+		<!-- SOCIAL -->
+		<div class="home_social">
+			<div class="home_social_list flex-row-center">
+				<a href="" class="home_social_list_item flex-row-center" target="_blank" rel="noopener noreferrer">
+					<img src="dest/img/rss.png" alt=""/>
+				</a>
+				<a href="" class="home_social_list_item flex-row-center" target="_blank" rel="noopener noreferrer">
+					<img src="dest/img/twitter-dark.png" alt=""/>
+				</a>
+				<a href="" class="home_social_list_item flex-row-center" target="_blank" rel="noopener noreferrer">
+					<img src="dest/img/fb-dark.png" alt=""/>
+				</a>
+				<a href="" class="home_social_list_item flex-row-center" target="_blank" rel="noopener noreferrer">
+					<img src="dest/img/git-dark.png" alt=""/>
+				</a>
+			</div>
+		</div>
+
+
+		<!-- FOOTER -->
+		<footer class="footer">
+            <div class="footer_up">
+                <img src="dest/img/logo-white.png" class="footer_up_img" alt="logo echopen" />
+                <ul class="footer_up_list flex-row-center">
+                    <li class="footer_up_list_item">
+                        <a href="about.html" class="text-white">Team</a>
+                    </li>
+                    <li class="footer_up_list_item">
+                        <a href="community.html" class="text-white">Community</a>
+                    </li>
+                    <li class="footer_up_list_item">
+                        <a href="joinus.html" class="text-white">Join us</a>
+                    </li>
+                    <li class="footer_up_list_item">
+                        <a href="opensource.html" class="text-white">Open source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_layout flex-row-center">
+                <div class="footer_layout_block flex-column">
+                    <h3 class="text-white bold article-title">Find us</h3>
+                    <p class="text-white legend">
+                        <strong>Hotel Dieu</strong> building A1 - 6th floor
+                    </p>
+                    <p class="text-white legend">
+                        1 Parvis Notre-Dame - Pl. Jean-Paul II
+                    </p>
+                    <p class="text-white legend">
+                        75004 Paris. France
+                    </p>
+                </div>
+                <div class="footer_layout_block flex-column">
+                    <!-- <div class="footer_layout_block_up flex-row-center"> -->
+                        <h3 class="text-white bold article-title">Support us</h3>
+                        <button class="btn btn-empty-white"> Donate</button>
+                    <!-- </div> -->
+                    <!-- <h3 class="text-white bold article-title">Follow us</h3> -->
+                    <!-- <ul class="footer_layout_block_list flex-row">
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <img src="dest/img/fb-green.png" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <img src="dest/img/twitter-green.png" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <img src="dest/img/git-green.png" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <img src="dest/img/rss-green.png" alt="" />
+                            </a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="footer_layout_block flex-column">
+                    <h3 class="text-white bold article-title">Join our team</h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus aecessitatibus</p>
+                    <a href="#" class="btn btn-plain-white">See offers</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
+<script src="dest/js/script.js"></script>
+</html>
